@@ -1,0 +1,22 @@
+{
+  "name": "LedCube",
+  "version": "1.0.0",
+  "description": "A library to display patterns on a cube made of WS2812 addressable LEDs",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/michelgre/ledcube.git"
+  },
+  "authors":
+  [
+    {
+      "name": "michelgre"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "FastLED/FastLED": "~3.6.0"
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif32","espressif8266","atmelavr"]
+}
